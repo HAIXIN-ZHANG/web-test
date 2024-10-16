@@ -1,0 +1,94 @@
+.profile-modal {
+    height: 972px;
+}
+
+.modal-content-title {
+    font-size: var(--font-size-medium);
+    font-weight: bold;
+}
+
+.close {
+    cursor: pointer;
+    /* color: #aaa; */
+    height: 10px;
+    width: 10px;
+    float: right;
+}
+
+.close img {
+    width: 100%;
+    height: 100%;
+}
+
+.profile-modal-input {
+    box-sizing: border-box;
+    border: solid 1px var(--color-border);
+    height: 54px;
+    border-radius: var(--common-border-radius);
+    background-color: var(--color-white);
+    padding: 6px 12px 0 12px;
+    margin-top: 20px;
+}
+
+.profile-modal-input-introduction {
+    box-sizing: border-box;
+    height: 116px;
+}
+
+#profile-introduction {
+    margin-top: 6px;
+    width: 100%;
+    height: 60px;
+    border: none;
+    overflow: scroll;
+}
+
+
+.profile-modal-input label {
+    width: 100%;
+    font-size: var(--font-size-xsmall);
+    line-height: 12px;
+    color: var(--color-text-label);
+}
+
+.profile-modal-input input {
+    font-size: var(--font-size-small);
+    line-height: 14px;
+    color: var(--color-text);
+    border: none;
+    font-weight: 500;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 6px;
+}
+
+.profile-modal-avatar {
+    text-align: center;
+}
+
+#file-input {
+    display: none;
+}
+
+#upload-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+#icon-upload {
+    position: relative;
+    left: 190px;
+    top: -60px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+#icon-upload img {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 11px;
+}
